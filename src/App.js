@@ -1,5 +1,11 @@
+import { Container } from "./Container";
+
 const App = () => {
-  return <div className="App">Hello World!</div>;
+  return (
+    <Container>
+      <h1>Hello World!</h1>
+    </Container>
+  );
 };
 
 export default App;
